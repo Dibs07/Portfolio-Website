@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.form-input {
+  @apply border border-gray-300 text-gray-900 text-sm rounded focus:ring-0 focus:border-gray-400 w-full p-3 bg-zinc-700/20 border-zinc-700/50 placeholder:text-gray-300/50 text-gray-300/50;
+}
