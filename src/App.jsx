@@ -1,16 +1,16 @@
-import Header from "./header/Header";
 import Contact from "./contact/Contact";
 import Footer from "./footer/Footer";
 import FooterNavbar from "./footerNavbar/FooterNavbar";
 import Hero from "./hero/Hero";
 import Project from "./projectSection/Project";
 import Skills from "./skill/Skills";
+import Navbar from "./navbar/Navbar";
 
 function App() {
   return (
     <>
       <div className="bg-darkGrey text-white">
-        <Header />
+        <Navbar />
         <Hero />
         <Skills />
         <div className="relative">
