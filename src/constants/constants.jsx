@@ -1,7 +1,7 @@
 import React from "react";
 
 import { FaSquareGithub } from "react-icons/fa6";
-import { FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 
@@ -43,18 +43,18 @@ const projectCardInfo = [
 const socials = [
   {
     icon: <FaSquareGithub />,
-    link: "https://github.com/Subhrojoti",
+    link: "https://github.com/Dibs07",
     name: "GitHub",
   },
   {
     icon: <FaLinkedin />,
-    link: "https://www.linkedin.com/in/subhrojoti-nag-459204283/",
+    link: "https://www.linkedin.com/in/dibakarbanerjee-/",
     name: "Linkedin",
   },
   {
-    icon: <FaYoutube />,
-    link: "https://www.youtube.com/@tubetalk007",
-    name: "YouTube",
+    icon: <FaInstagram />,
+    link: "https://www.instagram.com/dibakar_07ff/",
+    name: "Instagram",
   },
 ];
 
