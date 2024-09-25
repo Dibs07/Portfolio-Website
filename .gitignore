@@ -22,3 +22,4 @@ src/constants
 *.njsproj
 *.sln
 *.sw?
+.env

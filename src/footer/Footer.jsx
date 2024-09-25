@@ -13,7 +13,7 @@ const Footer = () => {
               <a
                 href={item.link}
                 target="_blank"
-                className="hover:text-redHover cursor-pointer"
+                className="hover:text-[#880ED4] cursor-pointer"
                 key={k}
               >
                 <li>{item.icon}</li>
@@ -21,7 +21,7 @@ const Footer = () => {
             ))}
           </ul>
           <div className="flex items-center justify-center gap-2">
-            <span className="text-red-500 text-xs">
+            <span className="text-[#880ED4] text-xs">
               <FaHeart />
             </span>
             <p className="text-[#606B7B] text-sm font-base">
