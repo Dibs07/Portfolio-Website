@@ -19,7 +19,7 @@ const pressStart2P = Press_Start_2P({
 export const metadata: Metadata = {
   title: "Dibakar Banerjee - Portfolio",
   description: "Modern gamified portfolio showcasing full-stack development skills",
-  generator: "v0.dev",
+  generator: "MySelf",
 }
 
 export default function RootLayout({

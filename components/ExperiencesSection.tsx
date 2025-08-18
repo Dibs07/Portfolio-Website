@@ -46,7 +46,7 @@ export default function ExperiencesSection({ experiences }: ExperiencesSectionPr
                 <CardContent className="p-6">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                     <h3 className="text-xl font-semibold text-white font-sans">{exp.title}</h3>
-                    <div className="flex items-center gap-2">
+                    <div className="flex flex-col md:flex-row items-start md:items-center gap-2">
                       <Badge variant="outline" className="text-green-400 border-green-500 font-mono">
                         {exp.level}
                       </Badge>

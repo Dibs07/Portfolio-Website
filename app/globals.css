@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-/* Custom scrollbar for webkit browsers */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -19,12 +18,10 @@
   background: #6a6a6a;
 }
 
-/* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
 }
 
-/* Custom focus styles */
 button:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
@@ -153,9 +150,6 @@ textarea:focus-visible {
   }
 }
 
-/* Adding retro gaming styles and effects */
-
-/* Retro grid background */
 .retro-grid {
   background-image: linear-gradient(rgba(0, 255, 0, 0.03) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0, 255, 0, 0.03) 1px, transparent 1px);
@@ -254,7 +248,6 @@ textarea:focus-visible {
   }
 }
 
-/* Scanline effect */
 @keyframes scanline {
   0% {
     transform: translateY(-100%);
@@ -274,10 +267,10 @@ textarea:focus-visible {
   background: linear-gradient(90deg, transparent, #00ff00, transparent);
   animation: scanline 3s linear infinite;
   pointer-events: none;
+  opacity: 50%;
   z-index: 1000;
 }
 
-/* Terminal cursor blink */
 @keyframes blink {
   0%,
   50% {
@@ -295,7 +288,6 @@ textarea:focus-visible {
   color: #00ff00;
 }
 
-/* Retro button press effect */
 .retro-button {
   background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
   border: 2px solid #00ff00;
@@ -307,7 +299,6 @@ textarea:focus-visible {
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 255, 0, 0.2);
 }
 
-/* Matrix-style text effect */
 .matrix-text {
   background: linear-gradient(0deg, #00ff00, #008800);
   -webkit-background-clip: text;
@@ -316,7 +307,6 @@ textarea:focus-visible {
   font-family: "Courier New", monospace;
 }
 
-/* Holographic effect */
 .holographic {
   background: linear-gradient(45deg, #ff0080, #ff8c00, #40e0d0, #ff0080);
   background-size: 400% 400%;
@@ -338,7 +328,6 @@ textarea:focus-visible {
   }
 }
 
-/* Power-up glow animation */
 @keyframes powerup-glow {
   0%,
   100% {

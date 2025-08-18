@@ -36,7 +36,7 @@ export default function HeroSection({
           transition={{ duration: 0.8 }}
           className="mb-8"
         >
-          <div className="w-40 h-40 mx-auto mb-6 relative">
+          <div className="w-40 h-40 mx-auto mb-6 mt-10 relative">
             <motion.div
               className="w-full h-full bg-gradient-to-br from-green-500/20 to-blue-500/20 rounded-lg flex items-center justify-center pixel-border"
               whileHover={{ scale: 1.1, rotate: 5 }}
