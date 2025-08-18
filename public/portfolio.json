@@ -1,0 +1,112 @@
+{
+  "name": "DIBAKAR",
+  "surname": "DEVELOPER",
+  "title": "Full-Stack Developer & Digital Architect",
+  "description": "Crafting legendary digital experiences with cutting-edge technologies. Ready to level up your next project with gaming-inspired interfaces and bulletproof code.",
+  "initializingText": "> INITIALIZING PORTFOLIO...",
+  "experiences": [
+    {
+      "title": "Senior Full-Stack Developer",
+      "company": "TechCorp Inc.",
+      "period": "2022 - Present",
+      "description": "Led development of scalable web applications using React, Node.js, and cloud technologies. Mentored junior developers and improved team productivity by 40%.",
+      "level": "EXPERT",
+      "xp": 95
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "StartupXYZ",
+      "period": "2020 - 2022",
+      "description": "Built responsive user interfaces and implemented modern design systems. Collaborated with designers to create pixel-perfect implementations.",
+      "level": "ADVANCED",
+      "xp": 80
+    },
+    {
+      "title": "Junior Developer",
+      "company": "WebSolutions",
+      "period": "2019 - 2020",
+      "description": "Developed and maintained client websites using HTML, CSS, JavaScript, and WordPress. Gained experience in full development lifecycle.",
+      "level": "INTERMEDIATE",
+      "xp": 60
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-Commerce Platform",
+      "description": "Full-stack e-commerce solution with React, Node.js, and Stripe integration.",
+      "tech": ["React", "Node.js", "MongoDB", "Stripe"],
+      "rarity": "LEGENDARY",
+      "power": 98,
+      "githubUrl": "https://github.com/username/ecommerce-platform",
+      "demoUrl": "https://ecommerce-demo.com"
+    },
+    {
+      "title": "Task Management App",
+      "description": "Collaborative project management tool with real-time updates and team features.",
+      "tech": ["Next.js", "TypeScript", "Prisma", "WebSocket"],
+      "rarity": "EPIC",
+      "power": 92,
+      "githubUrl": "https://github.com/username/task-manager",
+      "demoUrl": "https://task-manager-demo.com"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "Modern, responsive portfolio with smooth animations and dark mode support.",
+      "tech": ["Next.js", "Framer Motion", "Tailwind CSS"],
+      "rarity": "RARE",
+      "power": 85,
+      "githubUrl": "https://github.com/username/portfolio",
+      "demoUrl": "https://portfolio-demo.com"
+    }
+  ],
+  "skills": [
+    {
+      "name": "React/Next.js",
+      "level": 95,
+      "category": "FRONTEND",
+      "icon": "⚛️"
+    },
+    {
+      "name": "TypeScript",
+      "level": 90,
+      "category": "LANGUAGE",
+      "icon": "📘"
+    },
+    {
+      "name": "Node.js",
+      "level": 85,
+      "category": "BACKEND",
+      "icon": "🟢"
+    },
+    {
+      "name": "Python",
+      "level": 80,
+      "category": "LANGUAGE",
+      "icon": "🐍"
+    },
+    {
+      "name": "Database Design",
+      "level": 85,
+      "category": "DATA",
+      "icon": "🗄️"
+    },
+    {
+      "name": "UI/UX Design",
+      "level": 75,
+      "category": "DESIGN",
+      "icon": "🎨"
+    }
+  ],
+  "contact": {
+    "teamUpTitle": "Let's Team Up",
+    "teamUpDescription": "Ready to embark on an epic development quest? Whether you need a co-op partner for your next project or want to discuss the latest gaming tech, I'm always up for a challenge!",
+    "email": "dibakar.developer@example.com",
+    "github": "https://github.com/dibakar-banerjee",
+    "linkedin": "https://linkedin.com/in/dibakar-banerjee"
+  },
+  "footer": {
+    "copyright": "© 2025 DIBAKAR_BANERJEE.EXE",
+    "builtWith": "BUILT_WITH: Next.js + TypeScript + Framer_Motion",
+    "status": "STATUS: ONLINE"
+  }
+}
